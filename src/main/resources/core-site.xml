@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://192.168.102.69:8020</value>
+	</property>
+
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/opt/modules/hadoop-2.7.0/data/tmp</value>
+	</property>
+
+	<property>
+		<name>fs.trash.interval</name>
+		<value>10080</value>
+	</property>
+</configuration>
